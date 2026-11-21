@@ -1,0 +1,18 @@
+# Docker image archives (rebuild from Dockerfile)
+*.tar
+
+# Local secrets
+.env
+
+# Large generated knowledge index
+knowledge/kb-index.sqlite
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+
+# Python
+__pycache__/
+*.py[cod]
+
+# macOS
+.DS_Store
